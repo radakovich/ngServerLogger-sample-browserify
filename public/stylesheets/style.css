@@ -1,0 +1,46 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.log-input-container {
+    width: 343px;
+    margin: auto;
+    background-color: #E0FFE0;
+    padding: 1em;
+    border-radius: 10px;
+    border: 1px;
+    box-shadow: 5px 5px 10px #888888;
+}
+
+.log-input {
+    margin-top: 1em;
+}
+
+.log-input-label {
+    display: block;
+    margin-bottom: 0.3em;
+    margin-left: 0.5em;
+}
+
+.log-input-field {
+    border-radius: 5px;
+    padding: 0.5em;
+}
+
+.log-input-button {
+    width: 140px;
+    border-radius: 5px;
+    padding: 0.5em;
+    margin-left: 0.5em;
+    background-color: #FFA366;
+}
+
+.header {
+    margin-left: 20px;
+    margin-bottom: 2em;
+}

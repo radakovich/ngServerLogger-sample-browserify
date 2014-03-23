@@ -1,0 +1,52 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <title>Title</title>
+
+  <link rel="stylesheet" href="stylesheets/style.css"/>
+  <style></style>
+</head>
+
+<body ng-app="logger-sample">
+    <div ng-controller="MainCtrl">
+        <div class="log-input-container">
+            <div class="header">
+                <h2>Send Log Message to Server</h2>
+            </div>
+            <div class="log-input">
+                <label class="log-input-label">Log</label>
+                <input class="log-input-field" type="text" ng-model="log"></input>
+                <button class="log-input-button" ng-click="logLog()">Log Log Event</button>
+            </div>
+            <div class="log-input">
+                <label class="log-input-label">Debug</label>
+                <input class="log-input-field" type="text" ng-model="debug"></input>
+                <button class="log-input-button" ng-click="logDebug()">Log Debug Event</button>
+            </div>
+            <div class="log-input">
+                <label class="log-input-label">Info</label>
+                <input class="log-input-field" type="text" ng-model="info"></input>
+                <button class="log-input-button" ng-click="logInfo()">Log Info Event</button>
+            </div>
+            <div class="log-input">
+                <label class="log-input-label">Warn</label>
+                <input class="log-input-field" type="text" ng-model="warn"></input>
+                <button class="log-input-button" ng-click="logWarn()">Log Warn Event</button>
+            </div>
+            <div class="log-input">
+                <label class="log-input-label">Error</label>
+                <input class="log-input-field" type="text" ng-model="error"></input>
+                <button class="log-input-button" ng-click="logError()">Log Error Event</button>
+            </div>
+            <div class="log-input">
+                <label class="log-input-label">Exception</label>
+                <input class="log-input-field" type="text" ng-model="thrown"></input>
+                <button class="log-input-button" ng-click="throwError()">Log Exception Event</button>
+            </div>
+        </div>
+    </div>
+    <script src="javascripts/angular.min.js"></script>
+    <script src="javascripts/js/logger-sample.js"></script>
+</body>
+</html>
